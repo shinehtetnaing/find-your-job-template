@@ -1,0 +1,349 @@
+/* Login */
+
+.login-height {
+    height: 100vh;
+}
+
+.login-input {
+    width: 450px;
+    padding: 20px;
+}
+
+/* Home.html */
+/* hero section */
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.bg-image {
+    background-image: url('/img/hero_1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+}
+
+.hero-text-width {
+    width: auto;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Home.html */
+    /* hero section */
+    .hero-text-width, .job-hero-text-width {
+        width: 1000px;
+    }
+
+    /* Stats Section under sm device width */
+    .stats-section {
+        min-height: 500px !important;
+    }
+
+    /* Company-Detail.html */
+    /* Company Details Hero Section */
+    .detail-hero-width {
+        width: 1000px !important;
+    }
+
+    /* Company Details Section */
+
+    .mt-150 {
+        margin-top: 150px !important;
+    }
+
+    /* Job-Detail.html */
+    /* Job Details Section */
+    .w-60 {
+        width: 60%;
+    }
+}
+
+/* Medium devices (less than 992px) */
+@media (width < 992px) {
+
+    /* Company.html */
+    /* company Hero Section */
+    .company-logo-border {
+        border-right: none !important;
+    }
+
+    .company-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .company-title {
+        text-align: center;
+    }
+
+    /* Job.html */
+    /* Job Hero Section */
+    .job-hero-text-width {
+        width: 100%;
+    }
+
+    /* Job-Detail.html */
+    /* Job Banner Section */
+
+    .job-banner {
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Company.html */
+    .card-img {
+        width: 150px !important;
+    }
+
+    /* Company-Detail.html */
+    /* Company Details Hero Section */
+    .company-detail-layout {
+        top: 100% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+
+    .detail-hero-width {
+        width: 550px;
+    }
+
+    /* Company Details Section */
+
+    .mt-150 {
+        margin-top: 210px;
+    }
+}
+
+/* Small devices (less than 768px) */
+@media (width < 768px) {
+    /* Login.html */
+    .login-height {
+        height: auto;
+    }
+}
+
+/* Extra Small devices (less than 576px) */
+@media (width < 576px) {
+    .xs-center {
+        text-align: center;
+    }
+
+    .xs-p-25 {
+        padding: 25px;
+    }
+
+    .xs-pt-25 {
+        padding-top: 25px;
+    }
+
+    .xs-mb-0 {
+        margin-bottom: 0;
+    }
+
+    .xs-mb-5 {
+        margin-bottom: 5px;
+    }
+
+    .xs-mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .xs-mb-25 {
+        margin-bottom: 25px;
+    }
+
+    .flex-xs-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    /* Home.html */
+    /* hero section */
+    .hero-text-width {
+        width: 280px;
+    }
+
+    .hero-text-width .mb-sm-3 {
+        margin-bottom: 1rem;
+    }
+
+    /* Stats Section under sm device width */
+    .stats-section {
+        min-height: 700px !important;
+    }
+
+    .col-sm-6 {
+        width: 50% !important;
+    }
+
+    /* Company.html */
+    .card-img {
+        width: 80px !important;
+    }
+
+    /* Company-Detail.html */
+    /* Company Details Hero Section */
+    .company-detail-layout {
+        top: 30%;
+        left: 0%;
+    }
+
+    .detail-hero-width {
+        width: auto !important;
+    }
+
+    /* Company Details Section */
+
+    .mt-150 {
+        margin-top: 90px;
+    }
+}
+
+/* Stats Section */
+
+.stats-section {
+    min-height: 650px;
+}
+
+.overlay-green {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(29, 165, 56, 0.7);
+    background-size: cover;
+}
+
+.stats-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stats-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.stats-count {
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.stats-label {
+    font-size: 1rem;
+}
+
+/* Company.html */
+/* company Hero Section */
+
+.company-hero {
+    width: 100%;
+    height: 50vh;
+    /* min-height: 600px; */
+}
+
+/* Company Lists Section */
+
+.company-border {
+    border-radius: 0.75rem;
+    box-shadow: 0px 0px 8px 1px rgba(150, 150, 150, 0.67);
+}
+
+.card-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.card-link:hover {
+    color: #212529;
+}
+
+.company-card {
+    transition: box-shadow 0.2s ease-in;
+}
+
+.company-card:hover {
+    box-shadow: 0px 0px 8px 1px rgba(188, 188, 188, 0.67);
+}
+
+/* Company-Detail.html */
+/* Company Details Hero Section */
+
+.company-detail-hero {
+    width: 100%;
+    height: 50vh;
+    min-height: 400px;
+}
+
+.company-detail-card {
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.company-logo-border {
+    border-right: 1px solid #444;
+}
+
+.company-title {
+    border-bottom: 1px solid #444;
+    padding: 15px 0;
+}
+
+.company-address {
+    padding: 0 10px;
+}
+
+/* Company Job Section */
+
+.company-job-title {
+    border-top: 1px solid #444;
+    padding-top: 30px;
+}
+
+.tag {
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    background-color: burlywood;
+    display: inline-block;
+    padding: 5px;
+}
+
+/* Job.html */
+/* Job Search Section */
+.job-search {
+    height: 150px;
+}
+
+/* Job-Detail.html */
+/* Job Banner Section */
+
+.job-banner {
+    width: 100%;
+    height: 20vh;
+}
+
+/* Job Details Section */
+
+.job-detail-share {
+    text-align: center;
+    padding: 10px 0;
+}

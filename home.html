@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Job</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand text-info" href="home.html">
+                <img src="img/logo.jpg" alt="logo" width="80" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link text-muted" href="#">About</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link text-muted" href="job.html">Job</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link text-muted" href="company.html">Company</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link text-muted" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-item ms-4">
+                    <span class="me-2 pe-2">
+                        <a href="signup.html" class="btn btn-outline-primary" type="button">Sign Up</a>
+                    </span>
+                    <a href="login.html" class="btn btn-primary" type="button">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="position-relative hero-section bg-image">
+        <div class="overlay"></div>
+        <div class="position-absolute top-50 start-50 translate-middle hero-text-width">
+            <h1 class="fw-bolder text-white text-center">The Easiest Way To Get Your Dream Job</h1>
+            <div class="d-lg-flex flex-lg-row d-grid justify-content-lg-evenly mt-5">
+                <div class="mb-sm-3"><input class="form-control form-control-lg" type="text"
+                        placeholder="Job title, Company"></div>
+                <div class="mb-sm-3"><input class="form-control form-control-lg" type="text"
+                        placeholder="Location, Country"></div>
+                <div class="mb-sm-3">
+                    <select class="form-select form-select-lg mb-3" aria-label="Job Types">
+                        <option selected>Job Types</option>
+                        <option value="1">On Site</option>
+                        <option value="2">Remote</option>
+                        <option value="3">Hybrid</option>
+                    </select>
+                </div>
+                <div class="mb-sm-3">
+                    <button type="button" class="btn btn-info btn-lg w-100 text-white">Search Job</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="position-relative stats-section bg-image text-white">
+        <div class="overlay-green"></div>
+        <div class="container position-absolute top-50 start-50 translate-middle">
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-md-8">
+                    <h2 class="stats-title mb-4">Our Site Stats</h2>
+                    <p class="stats-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quam amet
+                        ipsum harum numquam,
+                        totam doloremque eos! Id, ea recusandae voluptas deleniti eum ex doloribus aliquam natus
+                        laudantium porro. Quod?</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="d-flex flex-column">
+                        <span class="stats-count mb-2">1930</span>
+                        <span class="stats-label">Candidates</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="d-flex flex-column">
+                        <span class="stats-count mb-2">54</span>
+                        <span class="stats-label">Job Posted</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="d-flex flex-column">
+                        <span class="stats-count mb-2">120</span>
+                        <span class="stats-label">Job Filled</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <div class="d-flex flex-column">
+                        <span class="stats-count mb-2">550</span>
+                        <span class="stats-label">Companies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-body-secondary">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-3 xs-mb-25">
+                    <h5 class="mb-sm-3 mb-md-5 xs-mb-20">About</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quasi corrupti soluta optio
+                        doloremque non officia aliquam quis deleniti. Ullam perspiciatis vel voluptate delectus
+                        consequatur?</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2 mb-sm-3 xs-mb-25">
+                    <h5 class="mb-sm-3 mb-md-5 xs-mb-20">Support</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-dark">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-dark">Privacy</a></li>
+                        <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-dark">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-3 xs-mb-25">
+                    <h5 class="mb-sm-3 mb-md-5 xs-mb-20">Have a Question?</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <div class="d-flex flex-row">
+                                <i class="bi bi-geo-alt-fill me-3"></i>
+                                <span>No.202, Bamaw St. Mandalay, Myanmar</span>
+                            </div>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <div class="d-flex flex-row">
+                                <i class="bi bi-telephone-fill me-3"></i>
+                                <span>+959 123753159</span>
+                            </div>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <div class="d-flex flex-row">
+                                <i class="bi bi-envelope-fill me-3"></i>
+                                <span>info@yourdomain.com</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-sm-3 xs-mb-25">
+                    <h5 class="mb-sm-3 mb-md-5 xs-mb-20">Subscribe to our newsletter</h5>
+                    <p class="xs-mb-25">Join our newsletter and get the latest job listings straight to
+                        your inbox.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-xs-column-reverse flex-lg-row justify-content-sm-between pt-4 mt-4 border-top">
+                    <div class="xs-center">
+                        <p>Copyright &copy; All rights reserved</p>
+                    </div>
+                    <div class="xs-center xs-mb-25">
+                        <a href="" class="link-dark fs-4 ms-3"><i class="bi bi-twitter"></i></a>
+                        <a href="" class="link-dark fs-4 ms-3"><i class="bi bi-facebook"></i></a>
+                        <a href="" class="link-dark fs-4 ms-3"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
